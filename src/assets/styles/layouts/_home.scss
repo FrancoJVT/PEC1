@@ -1,0 +1,17 @@
+@use "../variables";
+@use "../functions";
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: variables.$font-family-sans-serif;
+  color: variables.$text-color;
+  background-color: variables.$bg-light;
+}

@@ -1,0 +1,36 @@
+@use "../variables";
+@use "../functions";
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: functions.rem(16);
+  background-color: variables.$primary-color;
+  color: white;
+
+  &__title {
+    margin: 0;
+    font-size: functions.rem(24);
+  }
+
+  &__nav {
+    display: flex;
+    gap: functions.rem(16);
+    margin-top: functions.rem(8);
+
+    a {
+      color: white;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  @media (min-width: variables.$mqMinWidth) {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}

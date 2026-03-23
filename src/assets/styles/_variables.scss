@@ -1,0 +1,16 @@
+@use "sass:color";
+
+// Fonts
+$font-family-sans-serif: Arial, sans-serif;
+$font-family-serif: Georgia, serif;
+
+// Colors (tema Okinawa 🌊)
+$primary-color: #00bcd4;
+$secondary-color: #0077b6;
+$accent-color: #ffd166;
+
+$text-color: #333;
+$bg-light: #f9f9f9;
+
+// Responsive
+$mqMinWidth: 768px;

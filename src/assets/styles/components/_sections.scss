@@ -1,0 +1,22 @@
+@use "../variables";
+@use "../functions";
+
+.section {
+  padding: functions.rem(32) functions.rem(16);
+
+  &--light {
+    background-color: variables.$bg-light;
+  }
+
+  &__title {
+    font-size: functions.rem(24);
+    margin-bottom: functions.rem(16);
+    text-align: center;
+  }
+
+  &__text {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+  }
+}

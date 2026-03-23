@@ -1,0 +1,26 @@
+@use "../variables";
+@use "../functions";
+
+.hero {
+  height: 60vh;
+  background: url("../images/beach1.jpg") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+
+  &__title {
+    font-size: functions.rem(28);
+  }
+
+  &__subtitle {
+    font-size: functions.rem(16);
+  }
+
+  @media (min-width: variables.$mqMinWidth) {
+    &__title {
+      font-size: functions.rem(40);
+    }
+  }
+}

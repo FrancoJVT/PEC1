@@ -1,0 +1,26 @@
+@use "../variables";
+@use "../functions";
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: functions.rem(16);
+  margin-top: functions.rem(16);
+
+  @media (min-width: variables.$mqMinWidth) {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
+.card {
+  background: white;
+  padding: functions.rem(16);
+  border-radius: functions.rem(12);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+
+  &__title {
+    margin-bottom: functions.rem(8);
+  }
+}

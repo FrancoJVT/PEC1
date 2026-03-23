@@ -1,0 +1,125 @@
+<!doctype html>
+
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss" />
+    <!-- do not remove this line! -->
+    <title>Playas Okinawa, Japón</title>
+    <!-- FAVICON -->
+  <link rel="icon" type="image/png" href="./assets/images/icon.png" />
+  </head>
+
+  <body>
+    <!-- HEADER -->
+    <header class="header">
+      <h1 class="header__title">
+        <i class="fas fa-umbrella-beach"></i> Playas de Okinawa
+      </h1>
+
+      <nav class="header__nav">
+        <a href="#about"><i class="fas fa-info-circle"></i> Sobre</a>
+        <a href="#activities"><i class="fas fa-water"></i> Actividades</a>
+        <a href="#gallery"><i class="fas fa-image"></i> Galería</a>
+        <a href="#visit"><i class="fas fa-map-marker-alt"></i> Visita</a>
+      </nav>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero__content">
+        <h2 class="hero__title">Descubre el paraíso en Okinawa</h2>
+        <p class="hero__subtitle">
+          Aguas cristalinas, arena blanca y clima tropical durante todo el año.
+        </p>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <h2 class="section__title">
+        <i class="fas fa-info-circle"></i> Sobre las playas
+      </h2>
+
+      <p class="section__text">
+        Las playas de Okinawa, en Japón, son famosas por sus aguas cristalinas,
+        arena blanca y paisajes tropicales. Ubicadas en el sur del país, estas
+        islas ofrecen un clima cálido durante gran parte del año, ideal para el
+        turismo.
+      </p>
+
+      <p class="section__text">
+        El mar que rodea Okinawa destaca por sus arrecifes de coral y su rica
+        biodiversidad marina. Playas como Emerald Beach o Manza Beach son
+        destinos muy populares entre visitantes.
+      </p>
+    </section>
+
+    <!-- ACTIVITIES -->
+    <section id="activities" class="section section--light">
+      <h2 class="section__title">
+        <i class="fas fa-water"></i> Actividades
+      </h2>
+
+      <div class="cards">
+        <div class="card">
+          <h3 class="card__title">
+            <i class="fas fa-fish"></i> Snorkeling
+          </h3>
+          <p>Explora los arrecifes de coral y la vida marina.</p>
+        </div>
+
+        <div class="card">
+          <h3 class="card__title">
+            <i class="fas fa-swimmer"></i> Nadar
+          </h3>
+          <p>Disfruta de aguas tranquilas y cristalinas.</p>
+        </div>
+
+        <div class="card">
+          <h3 class="card__title">
+            <i class="fas fa-sun"></i> Atardeceres
+          </h3>
+          <p>Disfruta de impresionantes puestas de sol sobre el océano.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section id="gallery" class="section">
+      <h2 class="section__title">
+        <i class="fas fa-image"></i> Galería
+      </h2>
+
+      <div class="gallery">
+        <img src="./assets/images/beach1.jpg" alt="Playa de Okinawa con arena blanca" />
+        <img src="./assets/images/beach2.jpg" alt="Atardecer en Okinawa" />
+        <img src="./assets/images/beach3.jpg" alt="Agua turquesa en Okinawa" />
+      </div>
+    </section>
+
+    <!-- VISIT -->
+    <section id="visit" class="section section--light">
+      <h2 class="section__title">
+        <i class="fas fa-map-marker-alt"></i> Visita
+      </h2>
+
+      <p class="section__text">
+        Para llegar a las playas de Okinawa, primero debes volar al aeropuerto de
+        Naha desde las principales ciudades de Japón. Una vez allí, puedes moverte
+        en autobús, taxi o alquilar un coche.
+      </p>
+
+      <p class="section__text">
+        También existen ferris para visitar otras islas cercanas con playas más
+        tranquilas y menos concurridas.
+      </p>
+    </section>
+
+    <!-- FOOTER -->
+    <include src="./views/footer.html"></include>
+
+    <script type="module" src="./assets/scripts/main.js"></script>
+  </body>
+</html>
